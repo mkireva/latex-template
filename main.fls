@@ -286,7 +286,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-ts1.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Bold-osf-t1.tfm
 INPUT ./frontmatter/logo-black.png
 INPUT ./frontmatter/logo-black.png
 INPUT ./frontmatter/logo-black.png
@@ -303,8 +302,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_tcdnmr.e
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regular-osf-ts1.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-ts1--base.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_yod6vr.enc
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Bold-osf-t1.vf
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Bold-osf-t1--base.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.tfm
 INPUT ./main.toc
@@ -429,6 +426,5 @@ INPUT ./frontmatter/logo-white.png
 INPUT ./frontmatter/logo-white.png
 INPUT ./frontmatter/logo-white.png
 INPUT main.aux
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb
