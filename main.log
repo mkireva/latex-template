@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.23)  16 AUG 2025 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.23)  16 AUG 2025 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,14 +383,30 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 Package: pgfornament 2020/05/26 v1.2 vector ornaments
  (/usr/local/texlive/2024/texmf-dist/tex/latex/pgfornament/pgflibraryvectorian.code.tex
 2020/04/06 1.1 pgflibraryvectorian.code.tex
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/verse/verse.sty
+Package: verse 2014/05/10 v2.4b verse typesetting
+\c@vslineno=\count297
+\c@poemline=\count298
+\c@fvsline=\count299
+\c@modulo@vs=\count300
+\c@verse@envctr=\count301
+\versewidth=\skip51
+\vgap=\skip52
+\vindent=\skip53
+\stanzaskip=\skip54
+\vleftskip=\skip55
+\vrightskip=\skip56
+\c@chrsinstr=\count302
+\beforepoemtitleskip=\skip57
+\afterpoemtitleskip=\skip58
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count297
-\Gm@cntv=\count298
-\c@Gm@tempcnt=\count299
+\Gm@cnth=\count303
+\Gm@cntv=\count304
+\c@Gm@tempcnt=\count305
 \Gm@bindingoffset=\dimen272
 \Gm@wd@mp=\dimen273
 \Gm@odd@mp=\dimen274
@@ -403,47 +419,47 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip51
-\cftbeforetoctitleskip=\skip52
-\cftaftertoctitleskip=\skip53
-\cftbeforepartskip=\skip54
-\cftpartnumwidth=\skip55
-\cftpartindent=\skip56
-\cftbeforechapskip=\skip57
-\cftchapindent=\skip58
-\cftchapnumwidth=\skip59
-\cftbeforesecskip=\skip60
-\cftsecindent=\skip61
-\cftsecnumwidth=\skip62
-\cftbeforesubsecskip=\skip63
-\cftsubsecindent=\skip64
-\cftsubsecnumwidth=\skip65
-\cftbeforesubsubsecskip=\skip66
-\cftsubsubsecindent=\skip67
-\cftsubsubsecnumwidth=\skip68
-\cftbeforeparaskip=\skip69
-\cftparaindent=\skip70
-\cftparanumwidth=\skip71
-\cftbeforesubparaskip=\skip72
-\cftsubparaindent=\skip73
-\cftsubparanumwidth=\skip74
-\cftbeforeloftitleskip=\skip75
-\cftafterloftitleskip=\skip76
-\cftbeforefigskip=\skip77
-\cftfigindent=\skip78
-\cftfignumwidth=\skip79
-\c@lofdepth=\count300
-\c@lotdepth=\count301
-\cftbeforelottitleskip=\skip80
-\cftafterlottitleskip=\skip81
-\cftbeforetabskip=\skip82
-\cfttabindent=\skip83
-\cfttabnumwidth=\skip84
+\cftparskip=\skip59
+\cftbeforetoctitleskip=\skip60
+\cftaftertoctitleskip=\skip61
+\cftbeforepartskip=\skip62
+\cftpartnumwidth=\skip63
+\cftpartindent=\skip64
+\cftbeforechapskip=\skip65
+\cftchapindent=\skip66
+\cftchapnumwidth=\skip67
+\cftbeforesecskip=\skip68
+\cftsecindent=\skip69
+\cftsecnumwidth=\skip70
+\cftbeforesubsecskip=\skip71
+\cftsubsecindent=\skip72
+\cftsubsecnumwidth=\skip73
+\cftbeforesubsubsecskip=\skip74
+\cftsubsubsecindent=\skip75
+\cftsubsubsecnumwidth=\skip76
+\cftbeforeparaskip=\skip77
+\cftparaindent=\skip78
+\cftparanumwidth=\skip79
+\cftbeforesubparaskip=\skip80
+\cftsubparaindent=\skip81
+\cftsubparanumwidth=\skip82
+\cftbeforeloftitleskip=\skip83
+\cftafterloftitleskip=\skip84
+\cftbeforefigskip=\skip85
+\cftfigindent=\skip86
+\cftfignumwidth=\skip87
+\c@lofdepth=\count306
+\c@lotdepth=\count307
+\cftbeforelottitleskip=\skip88
+\cftafterlottitleskip=\skip89
+\cftbeforetabskip=\skip90
+\cfttabindent=\skip91
+\cfttabnumwidth=\skip92
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box67
-\beforetitleunit=\skip85
-\aftertitleunit=\skip86
+\beforetitleunit=\skip93
+\aftertitleunit=\skip94
 \ttl@plus=\dimen280
 \ttl@minus=\dimen281
 \ttl@toksa=\toks39
@@ -452,15 +468,15 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthfirst=\dimen284
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip87
-\f@nch@O@elh=\skip88
-\f@nch@O@erh=\skip89
-\f@nch@O@olh=\skip90
-\f@nch@O@orh=\skip91
-\f@nch@O@elf=\skip92
-\f@nch@O@erf=\skip93
-\f@nch@O@olf=\skip94
-\f@nch@O@orf=\skip95
+\f@nch@headwidth=\skip95
+\f@nch@O@elh=\skip96
+\f@nch@O@erh=\skip97
+\f@nch@O@olh=\skip98
+\f@nch@O@orh=\skip99
+\f@nch@O@elf=\skip100
+\f@nch@O@erf=\skip101
+\f@nch@O@olf=\skip102
+\f@nch@O@orf=\skip103
 ))
 LaTeX Font Info:    Trying to load font information for T1+EBGaramond-OsF on input line 29.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
@@ -509,16 +525,16 @@ Package microtype Info: Using default kerning set `alltext'.
 File: mt-EBGaramond.cfg 2021/10/25 v2.0 microtype config. file: EB Garamond / Adobe Garamond (RS)
 ) (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
+\scratchcounter=\count308
 \scratchdimen=\dimen285
 \scratchbox=\box68
-\nofMPsegments=\count303
-\nofMParguments=\count304
+\nofMPsegments=\count309
+\nofMParguments=\count310
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count305
+\MPscratchCnt=\count311
 \MPscratchDim=\dimen286
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
 \everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -526,8 +542,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@mv@tabular=\count308
-\c@mv@boldtabular=\count309
+\c@mv@tabular=\count314
+\c@mv@boldtabular=\count315
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -564,30 +580,23 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./frontmatter/titlepage.tex
-\goldenHeight=\skip96
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 28.
+(Font)              scaled to size 14.4pt on input line 22.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 24.88pt on input line 28.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 28.
+(Font)              scaled to size 14.4pt on input line 22.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 32.
+(Font)              scaled to size 24.88pt on input line 27.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 17.28pt on input line 32.
-<frontmatter/logo-white.png, id=33, 43.1211pt x 67.2111pt>
+(Font)              scaled to size 24.88pt on input line 27.
+<frontmatter/logo-white.png, id=31, 43.1211pt x 67.2111pt>
 File: frontmatter/logo-white.png Graphic file (type png)
 <use frontmatter/logo-white.png>
-Package pdftex.def Info: frontmatter/logo-white.png  used on input line 117.
-(pdftex.def)             Requested size: 22.135pt x 34.5018pt.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 17.28pt on input line 123.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 123.
+Package pdftex.def Info: frontmatter/logo-white.png  used on input line 39.
+(pdftex.def)             Requested size: 25.29507pt x 39.42755pt.
  [1
 
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_tcdnmr.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_byuyni.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ljow5q.enc} <./frontmatter/logo-white.png>] [2
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_byuyni.enc} <./frontmatter/logo-white.png>] [2
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -623,13 +632,17 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 146.
+(Font)              scaled to size 12.0pt on input line 74.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 164.
+(Font)              scaled to size 12.0pt on input line 92.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 92.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
+(Font)              scaled to size 17.28pt on input line 94.
  [1
 
 
-]) (./frontmatter/copyrightpage.tex
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ljow5q.enc}]) (./frontmatter/copyrightpage.tex
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 4.
 LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on input line 13.
@@ -658,14 +671,15 @@ Package microtype Info: Character `texttildelow ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 21.
-<frontmatter/logo-black.png, id=49, 43.1211pt x 67.2111pt>
+<frontmatter/logo-black.png, id=46, 43.1211pt x 67.2111pt>
 File: frontmatter/logo-black.png Graphic file (type png)
 <use frontmatter/logo-black.png>
 Package pdftex.def Info: frontmatter/logo-black.png  used on input line 28.
 (pdftex.def)             Requested size: 22.135pt x 34.5018pt.
-) (./frontmatter/tocpage.tex [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_yod6vr.enc} <./frontmatter/logo-black.png>] (./main.toc
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
+) (./frontmatter/tocpage.tex [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_tcdnmr.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_yod6vr.enc} <./frontmatter/logo-black.png>]
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
+(Font)              scaled to size 20.74pt on input line 4.
+ (./main.toc
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -762,14 +776,10 @@ Kapitel XV.
 ) [112
 
 ] (./frontmatter/backpage.tex
-Underfull \hbox (badness 4872) in paragraph at lines 96--96
-[][][]\T1/EBGaramond-OsF/m/sc/12/100ls (+10) Lorem ip-sum do-lor sit amet, con-sec-te-tu-
- []
-
 File: frontmatter/logo-white.png Graphic file (type png)
 <use frontmatter/logo-white.png>
-Package pdftex.def Info: frontmatter/logo-white.png  used on input line 100.
-(pdftex.def)             Requested size: 22.135pt x 34.5018pt.
+Package pdftex.def Info: frontmatter/logo-white.png  used on input line 24.
+(pdftex.def)             Requested size: 25.29507pt x 39.42755pt.
 ) [113
 
 
@@ -780,18 +790,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20248 strings out of 474116
- 420266 string characters out of 5743681
- 2150187 words of memory out of 5000000
- 41889 multiletter control sequences out of 15000+600000
- 683636 words of font info for 267 fonts, out of 8000000 for 9000
+ 19698 strings out of 474116
+ 403417 string characters out of 5743681
+ 1950187 words of memory out of 5000000
+ 41343 multiletter control sequences out of 15000+600000
+ 678177 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,108p,8761b,1166s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,108p,8761b,790s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb>
-Output written on main.pdf (119 pages, 389444 bytes).
+Output written on main.pdf (119 pages, 333859 bytes).
 PDF statistics:
  452 PDF objects out of 1000 (max. 8388607)
  297 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 83075 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 81027 words of extra memory for PDF output out of 89155 (max. 10000000)
 

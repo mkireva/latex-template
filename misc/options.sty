@@ -26,6 +26,7 @@
 \usetikzlibrary{math,positioning,shadows.blur} % TikZ sublibraries
 \usepackage{url}
 \usepackage{pgfornament}
+\usepackage{verse}
 
 \newcommand{\hsp}{\kern 1pt}    % Custom command for fine-tuning spacing in nested quotation marks
 
@@ -69,7 +70,7 @@
 
 % Define chapter title format
 \titleformat{\chapter}[block]
-  {\normalfont\scshape\huge\centering}
+  {\normalfont\scshape\LARGE\centering}
   {\thechapter\\}
   {0pt}
   {}
@@ -78,7 +79,7 @@
 \renewcommand{\@makechapterhead}[1]{%
   \vspace*{50pt}
   {\parindent \z@ \centering \normalfont
-    \scshape \huge 
+    \scshape \LARGE
     {#1}\par\nobreak
     \vspace{1em}
   }}
@@ -86,7 +87,7 @@
 
 % Section heading customization
 \titleformat{\section}[block]
-  {\normalfont\scshape\Large\centering}
+  {\normalfont\scshape\large\centering}
   {}
   {0pt}
   {}
