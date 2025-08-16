@@ -18,18 +18,9 @@
     \shade[top color=modernblue!100, bottom color=modernblue!90, opacity=0.3]
         (current page.south west) rectangle (current page.north east);
 
-    % Publisher logo at the top
-    \node[anchor=north] 
-        (logo) at ([yshift=-40pt] current page.north)
-        {\includegraphics[width=0.08\textwidth]{frontmatter/logo-white.png}};
-
-    % Publisher name below logo
-    \node[white, font=\large, anchor=north, below=8pt of logo.south] 
-        (publisher) {\textcolor{white!90}{\scshape\publisher}};
-
-    % Back cover description/synopsis - First paragraph
+    % Back cover description/synopsis - First paragraph (moved to top)
     \node[white, anchor=north, text width=0.75\linewidth, align=justify] 
-        (description1) at ([yshift=-20pt] current page.center) 
+        (description1) at ([yshift=-60pt] current page.north) 
         {\textcolor{white!95}{Diese Sammlung früher Schriften von Petar Danov bietet einen einzigartigen Einblick in die spirituellen und philosophischen Grundlagen seiner Lehre. Die Texte behandeln fundamentale Themen des menschlichen Lebens und der geistigen Entwicklung mit einer Klarheit und Tiefe, die auch heute noch von großer Relevanz ist.}};
 
     % Back cover description/synopsis - Second paragraph
@@ -37,13 +28,14 @@
         (description2) 
         {\textcolor{white!95}{Die vorliegende deutsche Übersetzung macht diese wichtigen Werke erstmals einem breiteren deutschsprachigen Publikum zugänglich und lädt zur Reflexion über zeitlose Fragen der menschlichen Existenz ein.}};
 
-    % Minimal decorative line above description
-    \draw[white, line width=1.5pt, opacity=0.6] 
-        ([yshift=25pt] description1.north west) -- ([yshift=25pt] description1.north east);
+    % Publisher logo (moved to center area)
+    \node[anchor=center] 
+        (logo) at (current page.center)
+        {\includegraphics[width=0.08\textwidth]{frontmatter/logo-white.png}};
 
-    % Minimal decorative line below description
-    \draw[white, line width=1.5pt, opacity=0.6] 
-        ([yshift=-25pt] description2.south west) -- ([yshift=-25pt] description2.south east);
+    % Publisher name below logo
+    \node[white, font=\large, anchor=north, below=8pt of logo.south] 
+        (publisher) {\textcolor{white!90}{\scshape\publisher}};
 
     % ISBN and edition info at bottom
     \node[white, font=\small, anchor=south, text width=0.8\linewidth, align=center] 
