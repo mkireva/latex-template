@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1755372063.34148 "/Users/mariya/repos/latex-booktemplate/main.tex" "main.pdf" "main" 1755372064.73477 0
-  "/Users/mariya/repos/latex-booktemplate/main.tex" 1755353201.04422 2843 f642372a37bb030dd5fba7a79e6a0f50 ""
+["pdflatex"] 1755705758.78835 "/Users/mariya/repos/latex-booktemplate/main.tex" "main.pdf" "main" 1755705760.14134 0
+  "/Users/mariya/repos/latex-booktemplate/main.tex" 1755705758.59692 2843 f642372a37bb030dd5fba7a79e6a0f50 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_byuyni.enc" 1679344195 3645 7e30a6c2020f6c2e5207ff5bf518ca0f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ljow5q.enc" 1679344195 3064 ad039a5bf6faa075ad3278d742de72a1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_tcdnmr.enc" 1679344195 3038 e164542e716a689948526cfb8c023ec2 ""
@@ -185,10 +185,10 @@
   "frontmatter/logo-white.png" 1755162428 3859 b140c9e7b8793112a17e7e0293ee3836 ""
   "frontmatter/titlepage.tex" 1755372062.84154 3363 879f9fac71883f02cb57a1d69aaced68 ""
   "frontmatter/tocpage.tex" 1755162428 342 ffbd35838ab336ef52ee91572f106c66 ""
-  "main.aux" 1755372064.64162 4029 ba6637018f54516697bedf728501a76b "pdflatex"
-  "main.tex" 1755353201.04422 2843 f642372a37bb030dd5fba7a79e6a0f50 ""
-  "main.toc" 1755372064.64242 1795 705331d6b38f476a4eca8dbf257ff935 "pdflatex"
-  "misc/options.sty" 1755364660.03654 5053 7d980a945f58013ba0776ce97f166849 ""
+  "main.aux" 1755705760.04941 4029 ba6637018f54516697bedf728501a76b "pdflatex"
+  "main.tex" 1755705758.59692 2843 f642372a37bb030dd5fba7a79e6a0f50 ""
+  "main.toc" 1755705760.05055 1795 705331d6b38f476a4eca8dbf257ff935 "pdflatex"
+  "misc/options.sty" 1755705740.34161 5082 5f94c7c2c9e4115396f7a319def751a4 ""
   (generated)
   "main.aux"
   "main.log"

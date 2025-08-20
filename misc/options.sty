@@ -68,22 +68,16 @@
 % Roman numerals for chapter numbers
 \renewcommand{\thechapter}{\Roman{chapter}}
 
-% Define chapter title format
+% Define chapter title format (no chapter number)
 \titleformat{\chapter}[block]
   {\normalfont\scshape\LARGE\centering}
-  {\thechapter\\}
+  {}
   {0pt}
   {}
-\titlespacing*{\chapter}{0pt}{0pt}{1em}
-\makeatletter
-\renewcommand{\@makechapterhead}[1]{%
-  \vspace*{50pt}
-  {\parindent \z@ \centering \normalfont
-    \scshape \LARGE
-    {#1}\par\nobreak
-    \vspace{1em}
-  }}
-\makeatother
+\titlespacing*{\chapter}{0pt}{50pt}{1em}
+
+% Assign plain page style to chapter opening pages (no headers)
+\assignpagestyle{\chapter}{plain}
 
 % Section heading customization
 \titleformat{\section}[block]
@@ -132,8 +126,11 @@
 
 \fancyhf[CFE,CFO]{\thepage}        % Page number centered in footer (even and odd pages)
 %\fancyhead[LE,RO]{\thepage}       % Alternative page numbering in header corners
-\fancyhead[CE]{\itshape\authorname} % Author name centered on even-page headers
+\fancyhead[CE]{\itshape\leftmark} % Chapter title centered on even-page headers
 \fancyhead[CO]{\itshape\booktitle}  % Book title centered on odd-page headers
+
+% Set up chapter marks for headers (title only, no number)
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 
 % Custom color definitions
 \definecolor{customgold}{RGB}{203,161,53}   % Define a gold tone for accent use
